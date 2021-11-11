@@ -16,8 +16,8 @@ const business = {
 class Business extends React.Component {
     render(){
         return (
-            <div class="Business">
-                <div class="image-container">
+            <div className="Business">
+                <div className="image-container">
                     <img src='https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg' alt=''/>
                 </div>
                 <h2>{business.name}</h2>
